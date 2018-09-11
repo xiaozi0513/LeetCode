@@ -2,10 +2,11 @@ package com.wh.leetcode.pid002;
 
 /**
  * 两数相加
+ *
  * @author: wang_hui
  * @date: 2018/7/9 14:12
  */
-public class Solution002 {
+public class Solution1 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode root = new ListNode(0);
@@ -36,7 +37,7 @@ public class Solution002 {
     }
 
     public static void main(String[] args) {
-        Solution002 s = new Solution002();
+        Solution1 s = new Solution1();
 
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);

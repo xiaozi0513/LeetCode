@@ -5,11 +5,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 两数之和
+ * #两数之和#<br>
+ * 一遍哈希表，时间复杂度O(n)，空间复杂度O(n)
+ *
  * @author wang_hui
  * @date 2018/7/8 21:39
  **/
-public class Solution001 {
+public class Solution1 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -23,7 +25,7 @@ public class Solution001 {
     }
 
     public static void main(String[] args) {
-        Solution001 s = new Solution001();
+        Solution1 s = new Solution1();
 
         int[] nums = {2, 7, 11, 15};
         int target = 9;
